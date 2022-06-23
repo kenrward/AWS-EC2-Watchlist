@@ -32,8 +32,8 @@ resource automationAccounts_VMAuto_name_AWS_Tools_Common 'Microsoft.Automation/a
   name: 'AWS.Tools.Common'
   properties: {
     contentLink: {}
-    uri: ''
-    version: ''
+    uri: 'https://github.com/kenrward/AWS-EC2-Watchlist/blob/main/modules/aws.tools.common.4.1.111.zip?raw=true'
+    version: '4.1.111'
   }
 }
 
@@ -42,8 +42,8 @@ resource automationAccounts_VMAuto_name_AWS_Tools_EC2 'Microsoft.Automation/auto
   name: 'AWS.Tools.EC2'
   properties: {
     contentLink: {}
-    uri: ''
-    version: ''
+    uri: 'https://github.com/kenrward/AWS-EC2-Watchlist/blob/main/modules/aws.tools.ec2.4.1.111.zip?raw=true'
+    version: '4.1.111'
   }
 }
 
