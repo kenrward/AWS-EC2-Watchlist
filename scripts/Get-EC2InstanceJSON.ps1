@@ -7,7 +7,6 @@ Set-AwsCredentials -AccessKey $AwsAccessKeyId -SecretKey $AwsSecretKey -StoreAs 
 
 $regions = Get-EC2Region -ProfileName AWSProfile -Region us-east-1  
 
-
 foreach ($region in $regions) {
     $ec2instances = Get-EC2Instance -ProfileName AWSProfile -Region $region.RegionName
 
